@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
      // 生成したHTMLの要素をブラウザに表示させる
      imageElement.appendChild(blobImage);
+     imageElement.appendChild(inputHTML);
      ImageList.appendChild(imageElement);
    };
     
