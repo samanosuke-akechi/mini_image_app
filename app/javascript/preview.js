@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function(){
     const createImageHTML = (blob) => {
       // 画像を表示するためのdiv要素を生成
      const imageElement = document.createElement('div');
+     imageElement.setAttribute('class', "image-element")
+     let imageElementNum = document.querySelectorAll('.image-element').length
 
      // 表示する画像を生成
      const blobImage = document.createElement('img');
