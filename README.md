@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# アプリケーションの概要
+TECH CAMPのカリキュラムで画像投稿時のプレビュー機能の実装方法を学習するために作成したアプリケーション。  
+JavaScriptで画像投稿時に選択した画像がプレビュー表示されるように実装している。  
+また、一度の投稿で複数の画像を投稿できるように、実装している。  
+デプロイはしていない。
